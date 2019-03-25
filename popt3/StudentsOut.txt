@@ -1,0 +1,140 @@
+
+
+	Список студентов
+
+Начало:
+
+Имя - Smirnov
+Средний балл - 5
+1 {mathematics}(5);
+Имя - Sidorov
+Средний балл - 3.5
+3 {geography}(4);1 {mathematics}(3);
+Имя - Petrov
+Средний балл - 3.33333
+4 {history}(2);3 {geography}(4);2 {physics}(4);
+Имя - ivanov
+Средний балл - 3.33333
+3 {geography}(5);2 {physics}(3);1 {mathematics}(2);
+
+Конец
+
+	Список студентов
+
+Начало:
+
+Имя - Sidorov
+Средний балл - 3.5
+3 {geography}(4);1 {mathematics}(3);
+Имя - Petrov
+Средний балл - 3.33333
+4 {history}(2);3 {geography}(4);2 {physics}(4);
+Имя - ivanov
+Средний балл - 3.33333
+3 {geography}(5);2 {physics}(3);1 {mathematics}(2);
+
+Конец
+
+	Список студентов
+
+Начало:
+
+
+Конец
+
+	Список студентов
+
+Начало:
+
+Имя - Sidorov
+Средний балл - 3.5
+3 {geography}(4);1 {mathematics}(3);
+Имя - Petrov
+Средний балл - 3.33333
+4 {history}(2);3 {geography}(4);2 {physics}(4);
+Имя - Ivanov
+Средний балл - 3.33333
+3 {geography}(5);2 {physics}(3);1 {mathematics}(2);
+
+Конец
+
+	Список студентов
+
+Начало:
+
+Имя - Sidorov
+Средний балл - 3.5
+3 {geography}(4);1 {mathematics}(3);
+Имя - Petrov
+Средний балл - 3.33333
+4 {history}(2);3 {geography}(4);2 {physics}(4);
+
+Конец
+
+	Список студентов
+
+Начало:
+
+
+Конец
+
+	Список студентов
+
+Начало:
+
+Имя - YOOOOOOO
+Средний балл - 6
+3 {Chemistry}(6);
+Имя - Sidorov
+Средний балл - 3.5
+3 {Chemistry}(4);1 {Math}(3);
+Имя - Petrov
+Средний балл - 3.33333
+4 {PE}(2);3 {Chemistry}(4);2 {IT}(4);
+Имя - Ivanov
+Средний балл - 3.33333
+3 {Chemistry}(5);2 {IT}(3);1 {Math}(2);
+
+Конец
+
+	Список студентов
+
+Начало:
+
+Имя - WHOOOO
+Средний балл - 488
+1 {Math}(488);
+Имя - YOOOOOOO
+Средний балл - 6
+3 {Chemistry}(6);
+Имя - Sidorov
+Средний балл - 3.5
+3 {Chemistry}(4);1 {Math}(3);
+Имя - Petrov
+Средний балл - 3.33333
+4 {PE}(2);3 {Chemistry}(4);2 {IT}(4);
+Имя - Ivanov
+Средний балл - 3.33333
+3 {Chemistry}(5);2 {IT}(3);1 {Math}(2);
+
+Конец
+
+	Список студентов
+
+Начало:
+
+Имя - YOOOOOOO
+Средний балл - 6
+3 {Physics}(6);
+Имя - Sidorov
+Средний балл - 3.5
+3 {Physics}(4);1 {Math}(3);
+Имя - Petrov
+Средний балл - 3.33333
+4 {Chemistry}(2);3 {Physics}(4);2 {PE}(4);
+Имя - Ivanov
+Средний балл - 3.33333
+3 {Physics}(5);2 {PE}(3);1 {Math}(2);
+
+Конец
+
