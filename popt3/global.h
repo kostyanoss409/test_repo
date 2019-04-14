@@ -161,11 +161,9 @@ public:
 	void set_name(string name) { Name = name; }
 	List<MarksOnExam> *get_pass() { return pass; }
 	void set_pass(List<MarksOnExam> *pass) { this->pass = pass; }
-//	void Write(std::ofstream &f);
 	void DeleteExams() { pass->~List(); }
 	int Read(Chelovek *a, std::ifstream &f, List<Subjects> *&R);
-	//void   WriteOnScreen();
-	virtual void   WriteOnScreen();
+	void   WriteOnScreen();
 	Chelovek()
 	{
 		Name = "NONAME";
@@ -178,7 +176,7 @@ public:
 		pass = NULL;
 		subjcount = 0;
 	}
-
+	~Chelovek() {};
 };
 //Информация о студенте: оценки и средний балл
 class Information: public Chelovek
@@ -190,7 +188,6 @@ public:
 	void Write(std::ofstream &f);
 	void WriteOnScreen();
 	int  Read(Information *a, std::ifstream &f, List<Subjects> *&);
-	//Конструктор
 	Information()
 	{
 		Avg = 0;
@@ -199,10 +196,7 @@ public:
 	{
 		Avg = 0;
 	};
-	//Деструктор
-	~Information()
-	{
-	};
+	~Information() {};
 };
 
 class Prepods: public Chelovek
@@ -613,18 +607,6 @@ void List<Subjects>::LoadSmthToFile(const char *SmthOut)
 	}
 	f_out << "\nКонец\n\n";
 }
-/*void List<Subjects>::LoadSmthToFile(const char *SmthOut)
-{
-	std::ofstream f_out;
-	f_out.open(SmthOut, std::ios::app);
-	f_out << "	Список преподавателей\n\nНачало:\n\n";
-	List<Subjects> *q;
-	for (q = this->next; q != NULL; q = q->next)
-	{
-		q->data.WriteSubjects(f_out);
-	}
-	f_out << "\nКонец\n\n";
-}*/
 //Функция загрузки информации об одном предмете 
 void   Subjects::Write(std::ofstream &f)
 {
