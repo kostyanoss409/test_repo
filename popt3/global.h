@@ -163,7 +163,7 @@ public:
 	void set_pass(List<MarksOnExam> *pass) { this->pass = pass; }
 	void DeleteExams() { pass->~List(); }
 	int Read(Chelovek *a, std::ifstream &f, List<Subjects> *&R);
-	void   WriteOnScreen();
+	virtual void   WriteOnScreen() {};
 	Chelovek()
 	{
 		Name = "NONAME";
@@ -640,19 +640,18 @@ void   Prepods::WriteOnScreen()
 		}
 	}
 }
-void   Chelovek::WriteOnScreen()
+/*void   Chelovek::WriteOnScreen()
 {
 	if (this->Name != "NONAME")
 	{
 		cout << "Имя - " << this->Name << "\n";
-		//cout << "Средний балл - " << this->Avg << "\n";
 		if (this->pass != NULL)
 		{
 			this->pass->WriteExamensOnScreen();
 			cout << "\n";
 		}
 	}
-}
+}*/
 template<>
 void List<MarksOnExam>::WriteExamensOnScreen()
 {
